@@ -16,5 +16,5 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Verify Java
-        run: java -version
+      - name: Verify JAR
+        run: dir
