@@ -16,5 +16,13 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Verify JAR
-        run: dir
+      - name: Run OpKey Task
+        run: |
+          java -jar OpKeyCLI-0.6-jar-with-dependencies.jar ^
+          --hostname "https://qa1.perf-eks.opkeyone.com/" ^
+          --username "raju.yadav@opkey.com" ^
+          --apikey "BBY4BHPL1CJJQ5D27M" ^
+          --project "RJ_perf_main" ^
+          --module devopstask ^
+          --command run ^
+          --task-path "Project Workspace\SendEmail_2026_09_07 11_18_29_083"
