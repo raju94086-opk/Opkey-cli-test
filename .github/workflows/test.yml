@@ -16,5 +16,9 @@ jobs:
           distribution: temurin
           java-version: '17'
 
+      - name: List Files
+        run: dir
+
       - name: Run OpKey Task
-        run: java -jar "D:\backend\OpKey-SaaS-Java-CLI\com.ssts.opkey.cli\target\OpKeyCLI-0.6-jar-with-dependencies.jar" --hostname "https://qa1.perf-eks.opkeyone.com/" --username raju.yadav@opkey.com --apikey a5949e97431cc505b5 --project "Opkey" --module devopstask --command createApplyconfigurationTask --task-name "CHeckkfgwadar" --agent-id "387c7323-c075-458b-a89f-f26ae1387ffd" --requirement-id "71b9a0a1-9864-4106-8a98-f158a04dd5e3" --parent-id "00000000-0000-0000-0000-000000000000" --environment-id "72e7bb4a-92ce-46a6-bce0-0dd5d6021b4b" --module-name "Financials" --sub-module "Payables" --task-files "AP_MANAGE_PAYMENT_TERMS" --reporter-id "eb38792e-3180-41ea-ac00-017646064392"
+        run: |
+          java -jar OpKeyCLI-0.6-jar-with-dependencies.jar --hostname "https://qa1.perf-eks.opkeyone.com/" --username "raju.yadav@opkey.com" --apikey "a5949e97431cc505b5" --project "Opkey" --module devopstask --command createApplyconfigurationTask --task-name "GitHubActionDemo" --agent-id "387c7323-c075-458b-a89f-f26ae1387ffd" --requirement-id "71b9a0a1-9864-4106-8a98-f158a04dd5e3" --parent-id "00000000-0000-0000-0000-000000000000" --environment-id "72e7bb4a-92ce-46a6-bce0-0dd5d6021b4b" --module-name "Financials" --sub-module "Payables" --task-files "AP_MANAGE_PAYMENT_TERMS" --reporter-id "eb38792e-3180-41ea-ac00-017646064392"
