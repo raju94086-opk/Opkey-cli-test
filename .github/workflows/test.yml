@@ -19,18 +19,18 @@ jobs:
 
       - name: Run OpKey Task
         run: >
-          java -jar "OpKeyCLI-0.6-jar-with-dependencies.jar"
+          java -jar "D:\backend\OpKey-SaaS-Java-CLI\com.ssts.opkey.cli\target\OpKeyCLI-0.6-jar-with-dependencies.jar"
           --hostname "https://qa1.perf-eks.opkeyone.com"
           --username "${{ secrets.OPKEY_USERNAME }}"
           --apikey "${{ secrets.OPKEY_API_KEY }}"
           --project "Opkey"
           --module devopstask
           --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_09_14 12_08_11_980"
+          --task-name "ApplyConfigurations_2026_09_14 14_11_06_342"
           --agent-id "387c7323-c075-458b-a89f-f26ae1387ffd"
           --requirement-id "71b9a0a1-9864-4106-8a98-f158a04dd5e3"
           --parent-id "00000000-0000-0000-0000-000000000000"
-          --environment-id "72e7bb4a-92ce-46a6-bce0-0dd5d6021b4b"
+          --environment-id "3c49caeb-7d99-4b1e-be8c-1381cc6b0e56"
           --module-name "Financials"
           --sub-module "General Ledger"
           --task-files "AP_MANAGE_PAYMENT_TERMS"
