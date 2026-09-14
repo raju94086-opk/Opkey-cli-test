@@ -26,12 +26,12 @@ jobs:
           --project "Opkey"
           --module devopstask
           --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_09_14 14_26_55_723afaf"
+          --task-name "ApplyConfigurations_2026_09_14 14_52_20_052"
           --agent-id "387c7323-c075-458b-a89f-f26ae1387ffd"
           --requirement-id "71b9a0a1-9864-4106-8a98-f158a04dd5e3"
           --parent-id "00000000-0000-0000-0000-000000000000"
-          --environment-id "3c49caeb-7d99-4b1e-be8c-1381cc6b0e56"
+          --environment-id "72e7bb4a-92ce-46a6-bce0-0dd5d6021b4b"
           --module-name "Financials"
-          --sub-module "Payables"
+          --sub-module "General Ledger"
           --task-files "AP_MANAGE_PAYMENT_TERMS"
           --reporter-id "eb38792e-3180-41ea-ac00-017646064392"
