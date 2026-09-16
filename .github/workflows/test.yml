@@ -20,15 +20,15 @@ jobs:
       - name: Run OpKey Task
         run: >
           java -jar "OpKeyCLI-0.6-jar-with-dependencies.jar"
-          --hostname "http://localhost:5207"
+          --hostname "https://qa1.perf-eks.opkeyone.com/"
           --username "${{ secrets.OPKEY_USERNAME }}"
           --apikey "${{ secrets.OPKEY_API_KEY }}"
-          --project "Opkey"
+          --project "RJ_perf_main"
           --module devopstask
           --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_09_16 15_54_56_640"
-          --agent-id "387c7323-c075-458b-a89f-f26ae1387ffd"
-          --requirement-id "71b9a0a1-9864-4106-8a98-f158a04dd5e3"
+          --task-name "ApplyConfigurations_2026_09_16 20_04_48_608"
+          --agent-id "0240f013-f288-47ef-bd7a-5a687d2a1589"
+          --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
           --environment-id "71b9a0a1-9864-4106-8a98-f158a04dd5e3"
           --module-name "Financials"
