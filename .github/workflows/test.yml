@@ -26,7 +26,7 @@ jobs:
           --project "Opkey"
           --module devopstask
           --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_09_16 15_29_49_063"
+          --task-name "ApplyConfigurations_2026_09_16 15_43_58_658"
           --agent-id "387c7323-c075-458b-a89f-f26ae1387ffd"
           --requirement-id "71b9a0a1-9864-4106-8a98-f158a04dd5e3"
           --parent-id "00000000-0000-0000-0000-000000000000"
