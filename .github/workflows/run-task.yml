@@ -20,7 +20,7 @@ jobs:
       - name: Run OpKey Task
         run: >
           java -jar "OpKeyCLI-0.6-jar-with-dependencies.jar"
-          --hostname "https://qa1.perf-eks.opkeyone.com/"
+          --hostname "https://qa1.perf-eks.opkeyone.com"
           --username "${{ secrets.OPKEY_USERNAME }}"
           --apikey "${{ secrets.OPKEY_API_KEY }}"
           --project "RJ_perf_main"
