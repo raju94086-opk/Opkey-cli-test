@@ -23,7 +23,7 @@ jobs:
           --hostname "https://qa1.perf-eks.opkeyone.com"
           --username "${{ secrets.OPKEY_USERNAME }}"
           --apikey "${{ secrets.OPKEY_API_KEY }}"
-          --project "RJ_perf_main"
+          --project "jira_configops"
           --module devopstask
           --command run
-          --task-path "Project Workspace\ExportConfigurations_2025_11_26 17_09_00_374"
+          --task-path "Project Workspace\SendEmail_2026_09_07 12_23_14_946"
