@@ -26,4 +26,4 @@ jobs:
           --project "jira_configops"
           --module devopstask
           --command run
-          --task-path "Project Workspace\SendEmail_2026_09_07 12_23_14_946"
+          --task-path "Project Workspace\ApplyConfigurations_2026_09_22 15_31_50_387"
