@@ -26,7 +26,7 @@ jobs:
           --project "RJ_perf_main"
           --module devopstask
           --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_09_24 11_49_22_859"
+          --task-name "ApplyConfigurations_2026_09awrterterter_24 11_49_22_859"
           --agent-id "00000000-0000-0000-0000-000000000000"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
