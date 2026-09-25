@@ -20,10 +20,10 @@ jobs:
       - name: Run OpKey Task
         run: >
           java -jar "OpKeyCLI-0.6-jar-with-dependencies.jar"
-          --hostname "https://qa1.perf-eks.opkeyone.com"
+          --hostname "https://qa1.perf-eks.opkeyone.com/"
           --username "${{ secrets.OPKEY_USERNAME }}"
           --apikey "${{ secrets.OPKEY_API_KEY }}"
           --project "jira_configops"
           --module devopstask
           --command run
-          --task-path "Project Workspace\ExportConfigurations_2026_09_22 11_02_28_374"
+          --task-path "Project Workspace\ApplyConfigurations_2026_09_24 13_03_07_893"
