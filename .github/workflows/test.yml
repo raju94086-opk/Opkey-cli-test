@@ -20,19 +20,18 @@ jobs:
       - name: Run OpKey Task
         run: >
           java -jar "OpKeyCLI-0.6-jar-with-dependencies.jar"
-          --hostname "http://localhost:5207"
+          --hostname "https://qa1.perf-eks.opkeyone.com/"
           --username "${{ secrets.OPKEY_USERNAME }}"
           --apikey "${{ secrets.OPKEY_API_KEY }}"
-          --project "Opkey"
+          --project "RJ_perf_main"
           --module devopstask
-          --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_09_28 12_38_11_903"
-          --agent-id "00000000-0000-0000-0000-000000000000"
+          --command createExportConfigurationTask
+          --task-name "ExportConfigurations_2026_09_28 19_37_29_584"
+          --agent-id "9745d49c-08fe-4ca7-8877-1b4886fdddf9"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
-          --environment-id "72e7bb4a-92ce-46a6-bce0-0dd5d6021b4b"
+          --environment-id "f42e23cd-f5f5-4d53-a05e-a56d1af1e3da"
           --module-name "Financials"
           --sub-module "Payables"
           --task-files "AP_MANAGE_PAYMENT_TERMS"
-          --reporter-id "eb38792e-3180-41ea-ac00-017646064392"
-          --workbook-path "configops-workbooks/Manage Payment Terms.xlsx"
+          --reporter-id "b886d8d6-a934-4a82-9d58-f24e4b468862"
