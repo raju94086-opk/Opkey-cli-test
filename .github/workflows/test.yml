@@ -26,12 +26,12 @@ jobs:
           --project "RJ_perf_main"
           --module devopstask
           --command createExportConfigurationTask
-          --task-name "ExportConfigurations_2026_09_29 13_00_11_091"
-          --agent-id "b565efb1-7213-46f5-a840-5a12d815b948"
+          --task-name "ExportConfigurations_2026_09_29 13_04_44_541"
+          --agent-id "00000000-0000-0000-0000-000000000000"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
-          --environment-id "4c27b2b6-e78e-4ec7-a0ff-c0d6b04fb2d7"
+          --environment-id "3c49caeb-7d99-4b1e-be8c-1381cc6b0e56"
           --module-name "Financials"
-          --sub-module "General Ledger"
-          --task-files "FND_CREATE_IMPLEMENTATION_USERS"
+          --sub-module "Payables"
+          --task-files "AP_MANAGE_PAYMENT_TERMS"
           --reporter-id "b886d8d6-a934-4a82-9d58-f24e4b468862"
