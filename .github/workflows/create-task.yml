@@ -23,15 +23,15 @@ jobs:
           --hostname "https://qa1.perf-eks.opkeyone.com/"
           --username "${{ secrets.OPKEY_USERNAME }}"
           --apikey "${{ secrets.OPKEY_API_KEY }}"
-          --project "RJ_perf_main"
+          --project "jira_configops"
           --module devopstask
-          --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_09_30 16_30_08_587"
+          --command createExportConfigurationTask
+          --task-name "ExportConfigurations_2026_09_30 16_48_54_301"
           --agent-id "00000000-0000-0000-0000-000000000000"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
-          --environment-id "4c27b2b6-e78e-4ec7-a0ff-c0d6b04fb2d7"
+          --environment-id "3e128f9b-7f8f-4166-9759-4c088f88b903"
           --module-name "Financials"
-          --sub-module "Payables"
-          --task-files "AP_MANAGE_PAYMENT_TERMS"
-          --reporter-id "b886d8d6-a934-4a82-9d58-f24e4b468862"
+          --sub-module "General Ledger"
+          --task-files "FND_CREATE_IMPLEMENTATION_USERS"
+          --reporter-id "b5b5ec62-5e61-4a76-a9e2-e22b525b0f51"
