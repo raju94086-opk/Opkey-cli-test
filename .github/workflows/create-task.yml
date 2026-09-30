@@ -25,9 +25,9 @@ jobs:
           --apikey "${{ secrets.OPKEY_API_KEY }}"
           --project "RJ_perf_main"
           --module devopstask
-          --command createExportConfigurationTask
-          --task-name "ExportConfigurations_2026_09_30 16_14_33_954"
-          --agent-id "0cbc6e70-5755-4b5b-9b76-b42ce01149c2"
+          --command createApplyconfigurationTask
+          --task-name "ApplyConfigurations_2026_09_30 16_27_42_294dsfgda"
+          --agent-id "00000000-0000-0000-0000-000000000000"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
           --environment-id "4c27b2b6-e78e-4ec7-a0ff-c0d6b04fb2d7"
